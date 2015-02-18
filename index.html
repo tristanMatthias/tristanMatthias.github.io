@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tristan Mathis</title>
+
+    <style>
+        * { box-sizing: border-box; }
+        html { height: 100%; background-color: #5ccaa5; font-size: 10px; padding: 5px; font-family: "Gotham", Arial, san-serif; }
+        body { min-height: 100%; background-color: white; margin: 0; text-align: center; position: relative; }
+        
+
+        .center { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); }
+        
+        .logo { width: 100%; max-width: 855px; display: block; margin: auto; animate: ;}
+        hr { height: 2px; width: 120%%; background-color: #5ccaa5; border: 0; margin: 4vw; margin-left: -10%; }
+
+        p, a, span, input { font-size: 1.5rem; }
+        /* Links */
+        .links { display: block; margin: 0; padding: 0; margin-top: 4vw; }
+        .links li { display: inline-block; list-style: none; margin: 0 1vw; }
+        .links li, a { color: #5ccaa5; font-weight: 700; text-transform: uppercase; text-decoration: none; font-size: 2vw; transition: all 0.25s; }
+        a:hover { color: #2c82bd; letter-spacing: 1px; }
+
+
+        iframe  { position: absolute; bottom: 0; left: 0; opacity: 0.5; transition: 0.25s; }
+        iframe:hover  { position: absolute; bottom: 0; left: 0; opacity: 1; }
+
+        /* Fade animation */
+        .fade {
+          animation: fade ease-in-out 1s; animation-iteration-count: 1; -webkit-animation: fade ease-in-out 1s;
+          -webkit-animation-iteration-count: 1; -moz-animation: fade ease-in-out 1s; -moz-animation-iteration-count: 1;
+          -o-animation: fade ease-in-out 1s; -o-animation-iteration-count: 1;
+          -ms-animation: fade ease-in-out 1s; -ms-animation-iteration-count: 1;
+        }
+        @keyframes         fade { 0% { opacity:0; margin-top: -15px; }   100% { opacity:1; margin-top: 0; } }
+        @-moz-keyframes    fade { 0% { opacity:0; margin-top: -15px; }   100% { opacity:1; margin-top: 0; } }
+        @-webkit-keyframes fade { 0% { opacity:0; margin-top: -15px; }   100% { opacity:1; margin-top: 0; } }
+        @-o-keyframes      fade { 0% { opacity:0; margin-top: -15px; }   100% { opacity:1; margin-top: 0; } }
+        @-ms-keyframes     fade { 0% { opacity:0; margin-top: -15px; }   100% { opacity:1; margin-top: 0; } }    </style>
+</head>
+<body>
+    <section class="home">
+        <div class="center fade">
+            <hr>
+            <img src="/logo.png" alt="Tristan Matthias" class="logo">
+            <ul class="links">
+                <li>
+                    <a href="http://soundcloud.com/tristanmathis" > my work</a>
+                </li>
+                <li>
+                    /
+                </li>
+                <li>
+                    <a href="mailto:tristanmatthias94@gmail.com" > contact me</a>
+                </li>
+            </ul>
+            <hr>
+        </div>
+
+        
+        <iframe width="100%" height="95" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/191051514&amp;color=5ccaa5&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_artwork=false&amp;default_height=95"></iframe>
+
+
+    </section>
+</body>
+</html>
+
+
