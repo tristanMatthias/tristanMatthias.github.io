@@ -20,7 +20,7 @@
 		c-7.1,0-10.6,2.9-10.6,6.8v0.3c0,4.8,3.6,6.9,18.4,10.3c24.1,5.3,39.2,13.1,39.2,32.9v0.3c0,21.6-17,34.4-42.7,34.4
 		C793.1,290.1,775.5,284.2,762.4,272.6z"/>
 </defs>
-<use xlink:href="#XMLID_1_"  overflow="visible" fill="#FFFFFF"/>
+<use xlink:href="#XMLID_1_"  overflow="visible" fill="#5ccaa5"/>
 <clipPath id="XMLID_3_">
 	<use xlink:href="#XMLID_1_"  overflow="visible"/>
 </clipPath>
