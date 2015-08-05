@@ -18,6 +18,11 @@ body {
     position: relative;
     border: 5px solid #5ccaa5;
 }
+h1 {
+    font-size: 4.8rem;
+    font-weight: 500;
+    color: #5ccaa5;
+}
 h2 {
     font-size: 3rem;
     font-weight: 500;
@@ -28,7 +33,7 @@ p, a, span, input {
 }
 hr {
     height: 2px;
-    width: 120%%;
+    width: 120%;
     background-color: #5ccaa5;
     border: 0;
     margin: 4vw;
